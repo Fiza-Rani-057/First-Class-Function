@@ -24,3 +24,14 @@ function Message(){
  result(message);
 
 //   ===================== Function 3 ===============
+
+
+ function mess(){
+    console.log("Hello , I'm Fiza");
+    console.log("I'm a Passionate Frontend Developer");
+ }
+
+ function call(results){
+   results();
+ }
+ call(mess);
