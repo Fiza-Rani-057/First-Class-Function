@@ -45,3 +45,16 @@ function Message(){
      message();  //Higher Order Function
  }
  messages(Mess);  //CallBack function
+
+//  ================= Clousers =====================
+
+//  jb iner function outer function k variable ko yad rky to wo 
+// clouser kehlata ha 
+function outer(){
+    let name = "Fiza";
+    function inner(){
+        console.log(name);
+    }
+    inner();
+}
+outer();
