@@ -1,4 +1,4 @@
-//   ========================CallBack Function =================
+//   ======================== CallBack Function =================
 //  Asa function jo ki c function ko argument k tor par pass kia jay 
 
 function Message(){
@@ -33,3 +33,15 @@ function Message(){
    results();
  }
  call(mess);
+
+// ================= Higher Order Function =================
+// asa function jo kic dusre function ko argument me recieve kare 
+
+
+ function Mess(){
+    console.log("I'm a Passionate Frontend Developer"); 
+ }
+ function messages(message){
+     message();  //Higher Order Function
+ }
+ messages(Mess);  //CallBack function
