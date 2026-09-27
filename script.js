@@ -103,3 +103,32 @@ Sum( 2 , 5);
     document.write("My Name is Fiza Rani");
  }
  intro();
+
+ function welcome(username){
+    console.log(`Hello${username}`);
+ }
+
+ function goodby(username){
+    console.log(`Hello ${username}`);
+ }
+
+//   Main function 
+
+ function main(username, action) {
+     action(username);
+ }
+ main("Ali" , welcome);
+
+
+ function greet(user){
+    console.log(`Hi ${user}`);
+ }
+ function message(user){
+ console.log(`have a nice day${user}`);
+ }
+
+//  main 
+ function Main( username , messages){
+    messages(username);
+ }
+ Main(`Ahmed` ,greet)
