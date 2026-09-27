@@ -69,5 +69,37 @@ function Sum(a, b) {
 Sum( 2 , 5);
 
 
+ function Sub( a , b){
+    let sub = a - b;
+    function calc(){
+        console.log(sub);
+    }
+    calc();
+ }
+ Sub(10 , 6);
+
+ function Multiply(a , b){
+    let multiply = a*b;
+
+    function calc(){
+    console.log(multiply);
+    }
+    Multiply();
+ }
 
 //   ====================First Class Function ========================
+// JavaScript mein first-class function ka matlab hai ke functions ko bilkul 
+// aam variables ya values ki tarah treat kiya jata hai. Is feature ki wajah 
+// se JavaScript mein functions ko"first-class citizens" bhi kaha jata hai.
+
+
+ const greeting = ()=>{
+    document.write("Hello Everyone" + "<br>");
+ }
+ greeting();
+
+
+ const intro = ()=>{
+    document.write("My Name is Fiza Rani");
+ }
+ intro();
