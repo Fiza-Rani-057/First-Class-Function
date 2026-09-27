@@ -131,4 +131,13 @@ Sum( 2 , 5);
  function Main( username , messages){
     messages(username);
  }
- Main(`Ahmed` ,greet)
+ Main(`Ahmed` ,greet);
+
+ function main(){
+    return goodby;
+ }
+
+
+//   Function me return 
+ let recieve  = main();
+ recieve('Maham');
