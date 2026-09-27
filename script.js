@@ -67,3 +67,7 @@ function Sum(a, b) {
     calc();
 }
 Sum( 2 , 5);
+
+
+
+//   ====================First Class Function ========================
